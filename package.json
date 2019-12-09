@@ -1,0 +1,26 @@
+{
+    "name": "converter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass:build": "sass ./scss/index.scss ./css/index.css",
+        "sass:watch": "sass ./scss/index.scss ./css/index.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eugenbejenar/converter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eugenbejenar/converter/issues"
+    },
+    "homepage": "https://github.com/eugenbejenar/converter#readme",
+    "devDependencies": {
+        "node-sass": "^4.13.0",
+        "sass": "^1.23.7"
+    }
+}
